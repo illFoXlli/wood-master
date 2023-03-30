@@ -1,0 +1,116 @@
+.services{
+    scroll-margin-top: 50px;
+    padding-top: 60px;
+        padding-bottom: 44px;
+    @media screen and (min-width:$breakpoint-desk){
+        padding-top: 118px;
+        padding-bottom: 88px;
+    }
+}
+
+.services__title{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+@include font(800, 40, 60, none);
+}
+
+.services__subtitle{
+   text-align: center;
+    text-transform: uppercase;
+    @include font(700, 22, 33, none);
+    letter-spacing: 3;
+    color: var(--headerMenu-text-color);
+}
+
+.services-registartionBoxTitle{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+margin-bottom: 30px;
+
+    @media screen and (min-width:$breakpoint-tab){
+        max-width: 768px;
+    }  
+
+    @media screen and (min-width:$breakpoint-desk) {
+        max-width: 1600px;
+        height: 60px;
+        background-image: url("../images/services_section/flip1-bg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 600px 60px;
+    }
+}
+
+.services-marketSurveillanceBoxTitle{
+  display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+margin-bottom: 30px;
+
+    @media screen and (min-width:$breakpoint-tab){
+        max-width: 768px;
+    }  
+
+    @media screen and (min-width:$breakpoint-desk) {
+        max-width: 1600px;
+        height: 60px;
+        background-image: url("../images/services_section/flip2-bg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 600px 60px;
+    }
+}
+
+.services-sertificationBoxTitle{
+  display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+margin-bottom: 30px;
+
+    @media screen and (min-width:$breakpoint-tab){
+        max-width: 768px;
+    }  
+
+    @media screen and (min-width:$breakpoint-desk) {
+        max-width: 1600px;
+        height: 60px;
+        background-image: url("../images/services_section/flip3-bg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 600px 60px;
+    }
+}
+.services-otherBoxTitle{
+  display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+margin-bottom: 30px;
+
+    @media screen and (min-width:$breakpoint-tab){
+        max-width: 768px;
+    }  
+
+    @media screen and (min-width:$breakpoint-desk) {
+        max-width: 1600px;
+        height: 60px;
+        background-image: url("../images/services_section/flip4-bg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 600px 60px;
+    }
+}
+
+.services__text{
+    text-align: center;
+    @include font(400, 18, 21, none);
+}
+.services__text--back{
+    text-align: center;
+    @include font(400, 16, 19, none);
+}

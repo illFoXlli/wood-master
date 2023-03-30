@@ -1,0 +1,34 @@
+{
+  "name": "sap_landing",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://stets-js.github.io/sap_landing/",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /sap_landing/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stets-js/sap_landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stets-js/sap_landing/issues"
+  },
+  "dependencies": {
+    "jquery": "^3.6.3",
+    "modern-normalize": "^1.1.0",
+    "swiper": "^9.1.0"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.6.0",
+    "@parcel/transformer-sass": "^2.6.0",
+    "@parcel/transformer-webmanifest": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
